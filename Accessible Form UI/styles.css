@@ -13,7 +13,80 @@ body {
     grid-template-columns: 300px 200px;
     border: 2px solid #000;
     border-radius: 20px;
-    width: 600px;
+    width: 550px;
     padding: 30px;
     margin: 10px;
+    gap: 50px;
 }
+
+.Left-Form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    Width: 300px;
+    height: 300px;
+    border: 1px solid #000; 
+}
+
+.Right-Form {
+    Width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+}
+
+.left-big-text {
+    font-size: 17px;
+}
+
+.left-1-input {
+    border: #000 solid 2px;
+    border-radius: 8px;
+    width: 70%;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.formochki-left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#email {
+    border: red solid 2px;
+    border-radius: 8px;
+    width: 70%;
+    height: 30px;
+    padding-left: 5px;
+}
+
+#email::placeholder {
+    color: red;
+}
+
+#email-p {
+    color: red;
+    font-size: 15px;
+}
+
+.div-input {
+    border: none;
+    width: 80%;
+    height: 28px;
+}
+
+.div-i-l {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: #000 solid 2px;
+    border-radius: 8px;
+    width: 70%;
+    height: 30px;
+}
+
+button {
+    all: unset;       /* Скидає ВСІ стилі */
+    cursor: pointer;  /* Робить курсор "рукою", як у кнопки */
+  }

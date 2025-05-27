@@ -10,28 +10,30 @@ body {
 
 .Accessible {
     display: grid;
-    grid-template-columns: 300px 200px;
+    grid-template-columns: 250px 145px;
     border: 2px solid #000;
     border-radius: 20px;
-    width: 550px;
+    width:470px;
     padding: 30px;
     margin: 10px;
     gap: 50px;
+    height: 300px;
 }
 
 .Left-Form {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    Width: 300px;
+    Width: 250px;
     height: 300px;
-    border: 1px solid #000; 
 }
 
 .Right-Form {
-    Width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    Width: 145px;
     height: 300px;
-    border: 1px solid #000;
 }
 
 .left-big-text {
@@ -41,7 +43,7 @@ body {
 .left-1-input {
     border: #000 solid 2px;
     border-radius: 8px;
-    width: 70%;
+    width:100%;
     height: 30px;
     padding-left: 5px;
 }
@@ -55,7 +57,7 @@ body {
 #email {
     border: red solid 2px;
     border-radius: 8px;
-    width: 70%;
+    width: 100%;
     height: 30px;
     padding-left: 5px;
 }
@@ -82,7 +84,7 @@ body {
     flex-direction: row;
     border: #000 solid 2px;
     border-radius: 8px;
-    width: 70%;
+    width: 100%;
     height: 30px;
 }
 
@@ -90,3 +92,13 @@ button {
     all: unset;       /* Скидає ВСІ стилі */
     cursor: pointer;  /* Робить курсор "рукою", як у кнопки */
   }
+
+.label-last {
+    color: rgb(112, 115, 117);
+    text-decoration: line-through;
+}
+
+.div-input input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
